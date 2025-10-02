@@ -137,18 +137,18 @@ flowchart LR
 
 ## 🏗 Setup Instructions
 1. Clone Repository
-   `git clone https://github.com/yourusername/pricewatch-de.git
-   cd pricewatch-de `
+   `git clone https://github.com/yourusername/pricewatch-de.git`
+   `cd pricewatch-de `
 
 2. Setup virtual environment & install dependencies
-   `python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
-pip install -r requirements.txt`
+   `python -m venv venv`
+   `source venv/bin/activate   # Mac/Linux`
+   `venv\Scripts\activate      # Windows`
+   `pip install -r requirements.txt`
 
-3. Configure AWS credentials in .env
+3. Configure AWS credentials in `.env`
 
-4. Configure Snowflake credentials in .env
+4. Configure Snowflake credentials in `.env`
 
 5. Run Flask app
    `python app.py`
@@ -159,4 +159,4 @@ pip install -r requirements.txt`
 7. Run ETL job
    `spark-submit etl/price_etl.py`
 
-8. Deploy Airflow DAG dags/pricewatch_dag.py
+8. Deploy Airflow DAG `dags/pricewatch_dag.py`
